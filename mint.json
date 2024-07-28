@@ -8,8 +8,8 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#FF8A4D",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "light": "#FF8A4D",
+    "dark": "#FF8A4D",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -17,7 +17,7 @@
   },
   "topbarLinks": [
     {
-      "name": "Support Test",
+      "name": "Support",
       "url": "mailto:hi@mintlify.com"
     }
   ],
