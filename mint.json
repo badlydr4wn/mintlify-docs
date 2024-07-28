@@ -33,7 +33,7 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Docs",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
