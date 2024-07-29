@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "/brand/compassDark.png",
-    "light": "/brand/compassLight.png"
+    "dark": "/brand/compassDark.svg",
+    "light": "/brand/compassLight.svg"
   },
-  "favicon": "/brand/compassFavicon.png",
+  "favicon": "/brand/compassFavicon.svg",
   "colors": {
     "primary": "#FF8A4D",
     "light": "#e0753d",
