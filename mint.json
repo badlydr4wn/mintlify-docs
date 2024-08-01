@@ -23,6 +23,10 @@
   },
   "tabs": [
     {
+      "name": "Plugins",
+      "url": "plugins"
+    },
+    {
       "name": "Legal",
       "url": "legal"
     }
@@ -40,6 +44,15 @@
     }
   ],
   "navigation": [
+    {
+      "group": "Plugins",
+      "pages": [
+        "plugins/prc-api",
+        "plugins/sessions",
+        "plugins/infractions",
+        "plugins/departments"
+      ]
+    },
     {
       "group": "Legal",
       "pages": [
