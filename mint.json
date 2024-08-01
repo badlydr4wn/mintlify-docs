@@ -23,59 +23,28 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Legal",
+      "url": "legal"
     }
   ],
   "anchors": [
     {
       "name": "Docs",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://badlydr4wn-8688d556.mintlify.app"
     },
     {
       "name": "Support",
       "icon": "discord",
       "url": "https://discord.gg/Mt7Bvb2c8y"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Legal",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "legal/terms-of-use",
+        "legal/privacy-policy"
       ]
     }
   ],
