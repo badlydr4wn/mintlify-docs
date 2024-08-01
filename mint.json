@@ -23,6 +23,14 @@
   },
   "tabs": [
     {
+      "name": "Documentation",
+      "url": "docs"
+    },
+    {
+      "name": "Plugins",
+      "url": "plugins"
+    },
+    {
       "name": "Legal",
       "url": "legal"
     }
@@ -40,6 +48,19 @@
     }
   ],
   "navigation": [
+    {
+      "group": "Essentials",
+      "pages": [
+        "docs/introduction"
+      ]
+    },
+    {
+      "group": "Essentials",
+      "pages": [
+        "plugins/introduction",
+        "plugins/placeholder"
+      ]
+    },
     {
       "group": "Legal",
       "pages": [
