@@ -57,7 +57,12 @@
     {
       "group": "Essentials",
       "pages": [
-        "plugins/introduction",
+        "plugins/introduction"
+      ]
+    },
+    {
+      "group": "Plugins",
+      "pages": [
         "plugins/placeholder"
       ]
     },
