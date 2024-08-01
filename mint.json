@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Compass Documentation",
   "logo": {
     "dark": "/brand/compassDark.svg",
     "light": "/brand/compassLight.svg"
