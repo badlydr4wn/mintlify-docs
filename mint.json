@@ -28,7 +28,7 @@
     },
     {
       "name": "Plugins",
-      "url": "plugins"
+      "url": "modules"
     },
     {
       "name": "Legal",
@@ -57,17 +57,17 @@
     {
       "group": "Essentials",
       "pages": [
-        "plugins/introduction"
+        "modules/introduction"
       ]
     },
     {
-      "group": "Plugins",
+      "group": "Modules",
       "pages": [
-        "plugins/placeholder",
-        "plugins/prc-api",
-        "plugins/sessions",
-        "plugins/infractions",
-        "plugins/departments"
+        "modules/placeholder",
+        "modules/prc-api",
+        "modules/sessions",
+        "modules/infractions",
+        "modules/departments"
       ]
     },
     {
