@@ -63,7 +63,11 @@
     {
       "group": "Plugins",
       "pages": [
-        "plugins/placeholder"
+        "plugins/placeholder",
+        "plugins/prc-api",
+        "plugins/sessions",
+        "plugins/infractions",
+        "plugins/departments"
       ]
     },
     {
