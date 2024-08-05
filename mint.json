@@ -61,7 +61,7 @@
       ]
     },
     {
-      "group": "plugins",
+      "group": "Plugins",
       "pages": [
         "plugins/placeholder",
         "plugins/prc-api",
