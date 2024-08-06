@@ -51,7 +51,9 @@
     {
       "group": "Essentials",
       "pages": [
-        "docs/introduction"
+        "docs/introduction",
+        "docs/beta",
+        "docs/plugins"
       ]
     },
     {
