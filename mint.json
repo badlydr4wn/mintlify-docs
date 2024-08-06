@@ -49,15 +49,16 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Essentials",
       "pages": [
         "docs/introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "About",
       "pages": [
-        "plugins/introduction"
+        "plugins/introduction",
+        "plugins/syntax"
       ]
     },
     {
