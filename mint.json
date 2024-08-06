@@ -51,23 +51,23 @@
     {
       "group": "Get Started",
       "pages": [
-        "docs/essentials/introduction"
+        "docs/introduction"
       ]
     },
     {
       "group": "Essentials",
       "pages": [
-        "plugins/about/introduction"
+        "plugins/introduction"
       ]
     },
     {
       "group": "Plugins",
       "pages": [
-        "plugins/plugins/placeholder",
-        "plugins/plugins/prc-api",
-        "plugins/plugins/sessions",
-        "plugins/plugins/infractions",
-        "plugins/plugins/departments"
+        "plugins/placeholder",
+        "plugins/prc-api",
+        "plugins/sessions",
+        "plugins/infractions",
+        "plugins/departments"
       ]
     },
     {
