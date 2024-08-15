@@ -27,8 +27,8 @@
       "url": "docs"
     },
     {
-      "name": "Modules",
-      "url": "modules"
+      "name": "Plugins",
+      "url": "plugins"
     },
     {
       "name": "Legal",
@@ -49,25 +49,28 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": [
-        "docs/introduction"
-      ]
-    },
-    {
       "group": "Essentials",
       "pages": [
-        "modules/introduction"
+        "docs/introduction",
+        "docs/beta",
+        "docs/plugins"
       ]
     },
     {
-      "group": "Modules",
+      "group": "About",
       "pages": [
-        "modules/placeholder",
-        "modules/prc-api",
-        "modules/sessions",
-        "modules/infractions",
-        "modules/departments"
+        "plugins/introduction",
+        "plugins/syntax"
+      ]
+    },
+    {
+      "group": "Plugins",
+      "pages": [
+        "plugins/placeholder",
+        "plugins/prc-api",
+        "plugins/sessions",
+        "plugins/infractions",
+        "plugins/departments"
       ]
     },
     {
