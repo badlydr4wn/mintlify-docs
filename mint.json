@@ -51,7 +51,8 @@
     {
       "group": "Essentials",
       "pages": [
-        "docs/introduction"
+        "docs/introduction",
+        "docs/test"
       ]
     },
     {
