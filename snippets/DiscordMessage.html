@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>DiscordMessage</title>
 </head>
 <body>
-    <div class="dmContainer">
-        <div class="dmProfile">
-            <img src="" alt="" class="dmAvatar">
+    <div> <!-- Container -->
+        <div> <!-- Profile -->
+            <img src="/media/brand/compassFavicon.svg">  <!-- Avatar -->
         </div>
-        <div class="dmContent">
-            <div class="dmHeader"></div>
-            <div class="dmBody"></div>
+        <div> <!-- Content -->
+            <div> <!-- Header -->
+                <p>Compass</p> <!-- Username -->
+                <p></p> <!-- AppSuffix -->
+                <p>Today at 12:34</p> <!-- Timestamp -->
+            </div>
+            <div> <!-- Body -->
+                <p class="red-500">Hello world</p>
+            </div>
         </div>
     </div>
 </body>
