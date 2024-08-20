@@ -1,17 +1,6 @@
-export const DiscordMessage = ({ title }) => (
-      <div class="rounded-lg p-6 m-4 text-white flex" style="background-color: #2b2d31;">
-        <div class="pr-3 -translate-y-1"> 
-            <img class="h-10" src="/media/brand/compassFavicon.svg"> 
-        </div>
-        <div class="">
-            <div class="flex align-bottom">
-                <p class="mr-2 font-semibold">Compass</p>
-                <p class="uppercase text-xs bg-blue-600 p-1 rounded">APP</p>
-                <p class=" ml-2 text-slate-500 text-xs">Today at 12:34</p>
-            </div>
-            <div class="">
-                <p class="" >Hello world</p>
-            </div>
-        </div>
-    </div>
+export const MyComponent = ({ title }) => (
+  <div class="bg-red-500">
+    <h1>{title}</h1>
+    <p>{1+1}</p>
+  </div>
 );
