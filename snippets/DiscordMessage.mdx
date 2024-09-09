@@ -1,17 +1,6 @@
 export const MyComponent = ({ title }) => (
-  <div className="rounded-lg p-6 m-4 text-secondary flex" style="background-color: #2b2d31;"> <!-- Container -->
-        <div className="pr-3 -translate-y-1"> <!-- Profile -->
-            <img className="h-10" src="/media/brand/compassFavicon.svg">  <!-- Avatar -->
-        </div className>
-        <div className=""> <!-- Content -->
-            <div className="flex align-bottom"> <!-- Header -->
-                <p className="mr-2 font-semibold font-sans">Compass</p> <!-- Username -->
-                <p className="uppercase text-xs bg-primary p-1 rounded font-mono">APP</p> <!-- AppSuffix -->
-                <p className=" ml-2 text text-xs">Today at 12:34</p> <!-- Timestamp -->
-            </div>
-            <div className=""> <!-- Body -->
-                <p className="">Hello world</p>
-            </div>
-        </div>
-    </div>
+  <div className="bg-primary text-secondary p-4 rounded">
+    <h1 className="text-primary">{title}</h1>
+    <p>{1+1}</p>
+  </div>
 );
