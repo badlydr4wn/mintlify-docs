@@ -5,7 +5,7 @@
     "dark": "/media/brand/docs-dark.svg",
     "light": "/media/brand/docs-light.svg"
   },
-  "favicon": "/media/brand/docs-favicon.svg",
+  "favicon": "/media/brand/docs-favicon.png",
   "colors": {
     "primary": "#09aee0",
     "light": "#00c4ff",
