@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Compass Documentation",
   "logo": {
-    "dark": "/media/brand/docs-dark.png",
-    "light": "/media/brand/docs-light.png"
+    "dark": "/media/brand/docs-dark.svg",
+    "light": "/media/brand/docs-light.svg"
   },
-  "favicon": "/media/brand/docs-favicon.png",
+  "favicon": "/media/brand/docs-favicon.svg",
   "colors": {
     "primary": "#09aee0",
     "light": "#00c4ff",
