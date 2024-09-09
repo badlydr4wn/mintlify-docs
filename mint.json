@@ -27,10 +27,6 @@
       "url": "docs"
     },
     {
-      "name": "Plugins (WIP)",
-      "url": "plugins"
-    },
-    {
       "name": "Legal",
       "url": "legal"
     }
@@ -53,23 +49,6 @@
       "pages": [
         "docs/introduction",
         "docs/test"
-      ]
-    },
-    {
-      "group": "About",
-      "pages": [
-        "plugins/introduction",
-        "plugins/syntax"
-      ]
-    },
-    {
-      "group": "Plugins",
-      "pages": [
-        "plugins/placeholder",
-        "plugins/prc-api",
-        "plugins/sessions",
-        "plugins/infractions",
-        "plugins/departments"
       ]
     },
     {
