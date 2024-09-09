@@ -2,14 +2,14 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Compass Documentation",
   "logo": {
-    "dark": "/media/brand/compassDark.svg",
-    "light": "/media/brand/compassLight.svg"
+    "dark": "/media/brand/docs-dark.png",
+    "light": "/media/brand/docs-light.png"
   },
-  "favicon": "/media/brand/compassFavicon.svg",
+  "favicon": "/media/brand/docs-favicon.png",
   "colors": {
-    "primary": "#FF8A4D",
-    "light": "#e0753d",
-    "dark": "#cc6733"
+    "primary": "#09aee0",
+    "light": "#00c4ff",
+    "dark": "#1b8fb3"
   },
   "topbarLinks": [
     {
