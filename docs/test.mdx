@@ -11,4 +11,13 @@ import { FormattedMessage } from '/snippets/DiscordMessage.mdx';
 
 ---
 <Tip>This page is being used to test the <Tooltip tip="import { FormattedMessage } from '/snippets/DiscordMessage.mdx';">**DiscordMessage components**</Tooltip>.</Tip>
-<FormattedMessage title={'Custom title'} />
+Tabs>
+    <Tab title="Formatted">
+        <FormattedMessage title={'Custom title'} />
+    </Tab>
+    <Tab title="Raw">
+        ```log
+        [2024-09-10 15:58:02] <User123>: This is a sample message.
+        ```
+    </Tab>
+</Tabs
