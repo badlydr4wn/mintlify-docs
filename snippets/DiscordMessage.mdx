@@ -1,10 +1,10 @@
 export const FormattedMessage = ({ avatar, username, timestamp, type }) => (
-  <div className="flex rounded" style={{backgroundColor: "#00000", color: "#fffff"}}>
-    <img src={avatar} alt={username} />
+  <div className="flex rounded" style={{backgroundColor: "#00000", color: "#fffff", border: "var(--primary) 1px solid"}}>
+    <img src={avatar} alt={username} className="rounded-full" style={{height: "40px"}}/>
     <div>
       <div className="flex">
         <p>{username}</p>
-        <p >{type}</p>
+        <p className="rounded" style={{backgroundColor: "var(--primary)"}}>{type}</p>
         <p>{timestamp}</p>
       </div>
       <div>
