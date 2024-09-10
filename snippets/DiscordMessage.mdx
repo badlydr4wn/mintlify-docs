@@ -1,13 +1,15 @@
-export const FormattedMessage = ({ title }) => (
+export const FormattedMessage = ({ avatar, username, timestamp, app }) => (
 <div style={{ borderRadius: "0.5rem", padding: "1.5rem", margin: "1rem", color: "#fff", display: "flex" }}>
   <div style={{ paddingRight: "0.75rem", transform: "translateY(-0.25rem)" }}>
-    <img style={{ height: "2.5rem" }} src="/media/brand/compassFavicon.svg" alt="Avatar" />
+    <img style={{ height: "2.5rem" }} src={avatar} alt="Avatar" />
   </div>
   <div>
     <div style={{ display: "flex", alignItems: "flex-end" }}>
-      <p style={{ marginRight: "0.5rem", fontWeight: "600" }}>Compass</p>
-      <p style={{ textTransform: "uppercase", fontSize: "0.75rem", backgroundColor: "#3182ce", padding: "0.25rem", borderRadius: "0.25rem" }}>APP</p>
-      <p style={{ marginLeft: "0.5rem", color: "#9ca3af", fontSize: "0.75rem" }}>Today at 12:34</p>
+      <p style={{ marginRight: "0.5rem", fontWeight: "600" }}>{username}</p>
+      if (app=true) {
+        <p style={{ textTransform: "uppercase", fontSize: "0.75rem", backgroundColor: "--primary", padding: "0.25rem", borderRadius: "0.25rem" }}>APP</p>
+      }
+      <p style={{ marginLeft: "0.5rem", color: "#9ca3af", fontSize: "0.75rem" }}>{timestamp}</p>
     </div>
     <div>
       <p>Hello world</p>
