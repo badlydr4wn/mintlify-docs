@@ -1,5 +1,15 @@
 export const FormattedMessage = ({ avatar, username, timestamp, type }) => (
-  <div>
-    <h1>Formatted Discord Message</h1>
+  <div className="flex rounded" style={{backgroundColor: "#00000", color: "#fffff"}}>
+    <img src={avatar} alt={username} />
+    <div>
+      <div className="flex">
+        <p>{username}</p>
+        <p >{type}</p>
+        <p>{timestamp}</p>
+      </div>
+      <div>
+        hello world
+      </div>
+    </div>
   </div>
 );
