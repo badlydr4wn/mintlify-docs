@@ -6,9 +6,7 @@ export const FormattedMessage = ({ avatar, username, timestamp, app }) => (
   <div>
     <div style={{ display: "flex", alignItems: "flex-end" }}>
       <p style={{ marginRight: "0.5rem", fontWeight: "600" }}>{username}</p>
-      if (app=true) {
-        <p style={{ textTransform: "uppercase", fontSize: "0.75rem", backgroundColor: "--primary", padding: "0.25rem", borderRadius: "0.25rem" }}>APP</p>
-      }
+      <p style={{ textTransform: "uppercase", fontSize: "0.75rem", backgroundColor: "--primary", padding: "0.25rem", borderRadius: "0.25rem" }}>APP</p>
       <p style={{ marginLeft: "0.5rem", color: "#9ca3af", fontSize: "0.75rem" }}>{timestamp}</p>
     </div>
     <div>
