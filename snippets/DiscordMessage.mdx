@@ -1,6 +1,17 @@
 export const FormattedMessage = ({ title }) => (
-  <div style={{backgroundColor: "red", padding: "4px", borderRadius: "8px"}}>
-    <h1>Hello world</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tenetur, sequi temporibus iste fugit aliquam soluta cum dolore quibusdam quam quasi animi, mollitia eos dolores perferendis sed ipsum. Eligendi, perferendis!</p>
+<div style={{ borderRadius: "0.5rem", padding: "1.5rem", margin: "1rem", color: "#fff", display: "flex" }}>
+  <div style={{ paddingRight: "0.75rem", transform: "translateY(-0.25rem)" }}>
+    <img style={{ height: "2.5rem" }} src="/media/brand/compassFavicon.svg" alt="Avatar" />
   </div>
+  <div>
+    <div style={{ display: "flex", alignItems: "flex-end" }}>
+      <p style={{ marginRight: "0.5rem", fontWeight: "600" }}>Compass</p>
+      <p style={{ textTransform: "uppercase", fontSize: "0.75rem", backgroundColor: "#3182ce", padding: "0.25rem", borderRadius: "0.25rem" }}>APP</p>
+      <p style={{ marginLeft: "0.5rem", color: "#9ca3af", fontSize: "0.75rem" }}>Today at 12:34</p>
+    </div>
+    <div>
+      <p>Hello world</p>
+    </div>
+  </div>
+</div>
 );
