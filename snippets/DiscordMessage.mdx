@@ -3,7 +3,7 @@ export const FormattedMessage = ({ avatar, username, timestamp, type }) => (
     <img src={avatar} alt={username} className="rounded-full" style={{height: "40px"}}/>
     <div>
         <p>{username}</p>
-        <p className="rounded" style={{backgroundColor: "var(--primary)"}}>{type}</p>
+        <p className="rounded">{type}</p>
         <p>{timestamp}</p><br />
         <p>Hello World</p>
     </div>
